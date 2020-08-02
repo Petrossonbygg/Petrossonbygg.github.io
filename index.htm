@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrosson BYGG. Home Decoration And Installation Services In Upplands Väsby, Sweden</title>
+    <meta name="description" content="Door, Floor, Kitchen And Terrace Installation">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Nav_Container">
+                <a id="Logo" href="index.htm">
+                    <img src="./img/Main/Logo.png" alt="Petersson BYGG Logo">
+                </a>
+                <a id="Contact_Btn_id" href="#footer_container">
+                    <div class="Contact_Btn">
+                        <div>
+                            Contact Us
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </nav>
+        <div id="BG">
+            <div class="head_box">
+                <div class="head_box_text">
+                    <span class="Home">HOME</span><br>
+                    DECORATION<br>
+                    <span class="And">&</span>INSTALLATION
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <Main>
+        <section class="Dynamic_Services">
+            <img src="./img/Main/Arrow.png" alt="Scroll indicator">
+            <div>
+                <div class="SER">Our Services</div>
+            </div>
+            <img src="./img/Main/Arrow.png" alt="Scroll indicator">
+        </section>
+
+        <section class="Job_List_Container">
+            <article class="Kitchen">
+                <div class="word">Kitchen Installation</div>
+                <div class="pic_container">
+                    <img src="./img/Main/Kitchen.jpg" srcset="./img/Main/Kitchen_1400.jpg 1400w, ./img/Main/Kitchen_960.jpg 960w" alt="Kitchen Installation">
+                    <div class="view_Gal">
+                        <a href="./kitchen.htm">
+                            <div class="Gal_but">
+                                <div class="Gal_but_text">View <span>Kitchen</span> Gallery</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="Floor">
+                <div class="word">Floor Installation</div>
+                <div class="pic_container">
+                    <img src="./img/Main/floor_Pic.jpg" srcset="./img/Main/floor_Pic_1400.jpg 1400w, ./img/Main/floor_Pic_960.jpg 960w" alt="Floor Installation">
+                    <div class="view_Gal">
+                        <a href="./floor.htm">
+                            <div class="Gal_but">
+                                <div class="Gal_but_text">View <span>Floor</span> Gallery</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="Door">
+                <div class="word">Door Installation</div>
+                <div class="pic_container">
+                    <img src="./img/Main/door_Pic.jpg" srcset="./img/Main/door_Pic_1400.jpg 1400w, ./img/Main/door_Pic_960.jpg 960w" alt="Door Installation">
+                    <div class="view_Gal">
+                        <a href="./door.htm">
+                            <div class="Gal_but">
+                                <div class="Gal_but_text">View <span>Door</span> Gallery</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="Terrace">
+                <div class="word">Terrace Installation</div>
+                <div class="pic_container">
+                    <img src="./img/Main/Terrace_Pic.jpg" srcset="./img/Main/Terrace_Pic_1400.jpg 1400w, ./img/Main/Terrace_Pic_960.jpg 960w" alt="Terrace Installation">
+                    <div class="view_Gal">
+                        <a href="./terrace.htm">
+                            <div class="Gal_but">
+                                <div class="Gal_but_text">View <span>Terrace</span> Gallery</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </Main>
+    <footer>
+        <div id="footer_container">
+            <div class="Contact_Us_Label">Contact Us</div>
+
+            <form id="my-form" action="https://formspree.io/xgennenn" method="POST">
+                <input class="FN" type="text" name="FirstName" placeholder="First Name" />
+                <input class="LN" type="text" name="LastName" placeholder="Last Name" />
+                <input class="EM" type="email" name="Email" placeholder="Email Address" />
+                <input class="PN" type="text" name="Number" placeholder="Phone Number" />
+                <textarea name="comment" placeholder="Message"></textarea>
+                <br>
+
+                <button id="my-form-button">Submit</button>
+                <p style="text-align: left; margin-left: 12px; color: #0071bc" id="my-form-status"></p>
+            </form>
+
+            <div class="Contact_Us_Text">
+                <div><img src="./img/Main/Email.png" alt="Email"> <span>Petrossonbygg@hotmail.com <br></span></div>
+                <div><img src="./img/Main/Mobile.png" alt="Mobile"> <span>0739273930 <br></span></div>
+                <div><img src="./img/Main/Location.png" alt="Location" style="position: relative; top: -10px;"> <span style="display: inline-block;">Upplands Väsby 194 37, Sweden<Br>Hasselgatan 19</span> </div>
+            </div>
+        </div>
+        <div class="Drawing"></div>
+    </footer>
+
+
+
+    <!-- Place this script at the end of the body tag -->
+    <script src="resizer.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+
+            // get the form elements defined in your form HTML above
+
+            var form = document.getElementById("my-form");
+            var button = document.getElementById("my-form-button");
+            var status = document.getElementById("my-form-status");
+
+            // Success and Error functions for after the form is submitted
+
+            function success() {
+                form.reset();
+                button.style = "display: none ";
+                status.innerHTML = "Thanks!";
+            }
+
+            function error() {
+                status.innerHTML = "Oops! There was a problem.";
+            }
+
+            // handle the form submission event
+
+            form.addEventListener("submit", function (ev) {
+                ev.preventDefault();
+                var data = new FormData(form);
+                ajax(form.method, form.action, data, success, error);
+            });
+        });
+
+        // helper function for sending an AJAX request
+
+        function ajax(method, url, data, success, error) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.setRequestHeader("Accept", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                if (xhr.status === 200) {
+                    success(xhr.response, xhr.responseType);
+                } else {
+                    error(xhr.status, xhr.response, xhr.responseType);
+                }
+            };
+            xhr.send(data);
+        }
+    </script>
+
+</body>
+
+</html>
