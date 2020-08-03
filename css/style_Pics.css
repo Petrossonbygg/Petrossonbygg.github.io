@@ -124,7 +124,7 @@ header #BG .head_box {
   margin: auto;
 }
 
-header #BG .head_box .head_box_text {
+header #BG .head_box h1 {
   text-align: center;
   font-weight: bold;
   position: relative;
@@ -135,18 +135,18 @@ header #BG .head_box .head_box_text {
   color: black;
 }
 
-header #BG .head_box .head_box_text span {
+header #BG .head_box h1 span {
   color: #0071bc;
 }
 
 @media only screen and (min-width: 960px) {
-  header #BG .head_box .head_box_text {
+  header #BG .head_box h1 {
     font-size: 470%;
   }
 }
 
 @media screen and (min-height: 360px) {
-  header #BG .head_box .head_box_text {
+  header #BG .head_box h1 {
     font-size: 6.5vw;
   }
 }
