@@ -49,13 +49,6 @@
         </section>
 
         <section class="Picture_Container">
-            <figure><img src="./img/Kitchen/1.jpg" srcset="./img/Kitchen/1_1400.jpg 1400w, ./img/Kitchen/1_960.jpg 960w" alt="Köksinstallation bild"></figure>
-            <figure><img src="./img/Kitchen/2.jpg" srcset="./img/Kitchen/2_1400.jpg 1400w, ./img/Kitchen/2_960.jpg 960w" alt="Köksinstallation bild"></figure>
-            <figure><img src="./img/Kitchen/3.jpg" srcset="./img/Kitchen/3_1400.jpg 1400w, ./img/Kitchen/3_960.jpg 960w" alt="Köksinstallation bild"></figure>
-            <figure><img src="./img/Kitchen/4.jpg" srcset="./img/Kitchen/4_1400.jpg 1400w, ./img/Kitchen/4_960.jpg 960w" alt="Köksinstallation bild"></figure>
-            <figure><img src="./img/Kitchen/5.jpg" srcset="./img/Kitchen/5_1400.jpg 1400w, ./img/Kitchen/5_960.jpg 960w" alt="Köksinstallation bild"></figure>
-            <figure><img src="./img/Kitchen/6.jpg" srcset="./img/Kitchen/6_1400.jpg 1400w, ./img/Kitchen/6_960.jpg 960w" alt="Köksinstallation bild"></figure>
-            <figure><img src="./img/Kitchen/7.jpg" srcset="./img/Kitchen/7_1400.jpg 1400w, ./img/Kitchen/7_960.jpg 960w" alt="Köksinstallation bild"></figure>
         </section>
     </Main>
     <footer>
@@ -82,7 +75,39 @@
         </div>
         <div class="Drawing"></div>
     </footer>
+    
 
+
+     <!-- PictureLoader script -->
+     <script>
+        const PC = document.querySelector('.Picture_Container');
+        
+        document.addEventListener('DOMContentLoaded', function(){
+            //FolderNum,MaxIndex,MainFolder
+            loadPics(0,7,true);
+        });
+
+        function loadPics(FolderNum,MaxIndex,MainFolder){
+                const Addr = 'Kitchen';
+                const extension ='.jpg';
+                for(let i=1;i<=MaxIndex;i++){
+                    const N=document.createElement('figure');
+					if(MainFolder==false){
+						N.innerHTML=
+						`
+						<img src="./img/${Addr}/${FolderNum}/${i}${extension}"  srcset="./img/${Addr}/${FolderNum}/${i}_1400${extension} 1400w, ./img/${Addr}/${FolderNum}/${i}_960${extension} 960w" alt="terrassinstallation bild">
+						`;
+					}
+					else{
+						N.innerHTML=
+						`
+						<img src="./img/${Addr}/${i}${extension}"  srcset="./img/${Addr}/${i}_1400${extension} 1400w, ./img/${Addr}/${i}_960${extension} 960w" alt="terrassinstallation bild">
+						`;
+					}
+                    PC.appendChild(N);
+                }
+        }
+        </script>
 
     <!-- Place this script at the end of the body tag -->
 
