@@ -107,10 +107,6 @@ header nav .Nav_Container #Contact_Btn_id .Contact_Btn:hover {
 
 header #BG {
   height: 100%;
-  background: url(/img/Main/BG.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   opacity: 1;
 }
 
@@ -153,7 +149,7 @@ header #BG .head_box h1 span {
 
 @media only screen and (min-width: 960px) {
   header #BG .head_box h1 {
-    font-size: 350%;
+    font-size: 320%;
   }
 }
 
@@ -298,6 +294,12 @@ footer #footer_container .Contact_Us_Label {
   }
 }
 
+@media only screen and (min-width: 960px) {
+  footer #footer_container .Contact_Us_Label {
+    font-size: 5vw;
+  }
+}
+
 footer #footer_container .Contact_Us_Text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,12 +325,13 @@ footer #footer_container .Contact_Us_Text img {
 @media only screen and (min-width: 960px) {
   footer #footer_container .Contact_Us_Text img {
     top: 0.5em;
+    width: 4%;
   }
 }
 
 @media only screen and (min-width: 640px) {
   footer #footer_container .Contact_Us_Text img {
-    width: 5%;
+    width: 4%;
   }
 }
 
@@ -358,7 +361,7 @@ footer #footer_container .Contact_Us_Text span, footer #footer_container .Contac
 @media only screen and (min-width: 960px) {
   footer #footer_container .Contact_Us_Text {
     text-align: left;
-    font-size: 2.8vw;
+    font-size: 2.2vw;
     -webkit-box-pack: baseline;
         -ms-flex-pack: baseline;
             justify-content: baseline;
@@ -406,6 +409,14 @@ footer #footer_container .Contact_Us_Text div {
     padding-top: 3vh;
     padding-bottom: 3vh;
     font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #my-form input {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 100%;
   }
 }
 
