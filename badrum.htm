@@ -2,12 +2,12 @@
 <html lang="sv">
 
 <head>
-    <link rel="canonical" href="https://petrossonbygg.github.io/vaxhouse.htm" />
+    <link rel="canonical" href="https://petrossonbygg.github.io/bastu.htm" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VaxHouseInstallation Stockholm, Väsby - Petrosson Bygg</title>
+    <title>BadrumInstallation Stockholm, Väsby - Petrosson Bygg</title>
     <meta name="description" content="
-    Vi presenterar vårt nya galleri för Vaxhouseinstallation,
+    Vi presenterar vårt nya galleri för Badruminstallation,
     Heminredning och installationstjänster i Upplands Väsby, Stockholm">
     <link rel="stylesheet" href="./css/style_Pics.css">
 </head>
@@ -29,7 +29,7 @@
             </div>
 
         </nav>
-        <div id="BG" style="background: url(./img/Main/vaxhouse_960.webp);
+        <div id="BG" style="background: url(./img/Main/Badrum_960.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;">
@@ -46,7 +46,7 @@
         <section class="Dynamic_Services">
             <img src="./img/Main/Arrow.png" alt="Scroll indicator">
             <div>
-                <h2 class="SER">VaxHouseInstallation</h2>
+                <h2 class="SER">BadrumInstallation</h2>
             </div>
             <img src="./img/Main/Arrow.png" alt="Scroll indicator">
         </section>
@@ -94,23 +94,23 @@
 
         document.addEventListener('DOMContentLoaded', function() {
             //FolderNum,MaxIndex,MainFolder
-            loadPics(0, 14, true);
+            loadPics(0, 3, true);
         });
 
         function loadPics(FolderNum, MaxIndex, MainFolder) {
-            const Addr = 'VaxHouse';
+            const Addr = 'Badrum';
             const extension = '.jpg';
             for (let i = 1; i <= MaxIndex; i++) {
                 const N = document.createElement('figure');
                 if (MainFolder == false) {
                     N.innerHTML =
                         `
-						<img src="./img/${Addr}/${FolderNum}/${i}${extension}"  srcset="./img/${Addr}/${FolderNum}/${i}_1400${extension} 1400w, ./img/${Addr}/${FolderNum}/${i}_960${extension} 960w" alt="vaxHouseinstallation bild">
+						<img src="./img/${Addr}/${FolderNum}/${i}${extension}"  srcset="./img/${Addr}/${FolderNum}/${i}_1400${extension} 1400w, ./img/${Addr}/${FolderNum}/${i}_960${extension} 960w" alt="Badruminstallation bild">
 						`;
                 } else {
                     N.innerHTML =
                         `
-						<img src="./img/${Addr}/${i}${extension}"  srcset="./img/${Addr}/${i}_1400${extension} 1400w, ./img/${Addr}/${i}_960${extension} 960w" alt="vaxHouseinstallation bild">
+						<img src="./img/${Addr}/${i}${extension}"  srcset="./img/${Addr}/${i}_1400${extension} 1400w, ./img/${Addr}/${i}_960${extension} 960w" alt="Badruminstallation bild">
 						`;
                 }
                 PC.appendChild(N);

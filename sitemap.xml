@@ -8,32 +8,34 @@
 
 <url>
   <loc>https://petrossonbygg.github.io/index.htm</loc>
-  <lastmod>2020-08-03T05:41:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://petrossonbygg.github.io/kitchen.htm</loc>
-  <lastmod>2020-08-03T05:41:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://petrossonbygg.github.io/floor.htm</loc>
-  <lastmod>2020-08-03T05:41:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://petrossonbygg.github.io/door.htm</loc>
-  <lastmod>2020-08-03T05:41:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://petrossonbygg.github.io/terrace.htm</loc>
-  <lastmod>2020-08-03T05:41:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://petrossonbygg.github.io/vaxhouse.htm</loc>
-  <lastmod>2020-08-03T05:41:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://petrossonbygg.github.io/bastu.htm</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://petrossonbygg.github.io/badrum.htm</loc>
   <priority>0.80</priority>
 </url>
 
