@@ -38,5 +38,9 @@
   <loc>https://petrossonbygg.github.io/badrum.htm</loc>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://petrossonbygg.github.io/altan.htm</loc>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
