@@ -1,46 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>https://petrossonbygg.github.io/index.htm</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://petrossonbygg.github.io/kitchen.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://petrossonbygg.github.io/floor.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://petrossonbygg.github.io/door.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://petrossonbygg.github.io/terrace.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://petrossonbygg.github.io/vaxhouse.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://petrossonbygg.github.io/bastu.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://petrossonbygg.github.io/badrum.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://petrossonbygg.github.io/altan.htm</loc>
-  <priority>0.80</priority>
-</url>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://btawaifi.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://btawaifi.github.io/#/btanime</loc>
+  </url>
 </urlset>
