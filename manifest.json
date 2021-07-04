@@ -1,7 +1,6 @@
 {
-  "name": "Installationstjänster Stockholm, Väsby - PetrossonBygg",
   "short_name": "PetrossonBygg",
-  "description": "Professionella dekoration och installationstjänster.dörrmontering,golvmontering,köksmontering,epoxy,vaxhouse,altanmontering,terrassmontering och renovering i Upplands Väsby, Stockholm",  
+  "name": "Installationstjänster Stockholm, Väsby - PetrossonBygg",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,8 +9,7 @@
     }
   ],
   "start_url": ".",
+  "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "display": "fullscreen",  
-  "orientation": "portrait" 
+  "background_color": "#ffffff"
 }
